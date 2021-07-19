@@ -87,6 +87,27 @@ namespace DotNetCoreCRUDWebApp.Controllers
             }
         }
 
+        public async Task<ActionResult> Delete(int id)
+        {
+            try
+            {
+                var std =await  _Db.Student_tb.FindAsync(id);
+                if(std != null)
+                {
+                    _Db.Student_tb.Remove(std);
+                    await _Db.SaveChangesAsync();
+                }
+
+                return RedirectToAction("StudentList");
+            }
+            catch (Exception ex)
+            {
+                return RedirectToAction("StudentList");
+                
+            }
+        }
+
+
         private void loadDeptList()
         {
             try
