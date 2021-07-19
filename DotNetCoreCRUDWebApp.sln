@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreCRUDWebApp", "DotNetCoreCRUDWebApp\DotNetCoreCRUDWebApp.csproj", "{0E4D7F1C-D778-4229-B23B-B9964F54B03C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E4D7F1C-D778-4229-B23B-B9964F54B03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4D7F1C-D778-4229-B23B-B9964F54B03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4D7F1C-D778-4229-B23B-B9964F54B03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4D7F1C-D778-4229-B23B-B9964F54B03C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA8916DB-DC8B-4ED2-AB1C-44E6F6B2889C}
+	EndGlobalSection
+EndGlobal
